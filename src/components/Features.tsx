@@ -7,10 +7,10 @@ const Features: React.FC = () => {
   return (
     <>
       <div className="my-12 mx-auto relative pt-20">
-        <span className="text-center absolute top-2 left-1/2 transform -translate-x-1/2 font-semibold text-5xl text-[#020043] nax-w-[33.25rem] mx-auto leading-[3.507rem]">
-          Comprehensive Care <br /> for Every Patient
+        <span className="text-center lg:absolute top-2 left-1/2 transfrm -translate-x-1/2 font-semibold lg:text-5xl text-3xl text-[#020043] lg:max-w-[33.25rem] mx-auto lg:leading-[3.507rem]">
+          Comprehensive Care for Every Patient
         </span>
-        <div className="grid grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-8 mt-8">
           <FeatureCard
             title="90%"
             des="Patient satisfaction rate, reflecting our commitment."
@@ -20,14 +20,12 @@ const Features: React.FC = () => {
             title="500+"
             des="Board-certified doctors"
             imageURL="assets/contract (1) 1.svg"
-            extraClassName="mt-auto"
           />
-          <Feature3 extraClassName="mt-auto" />
+          <Feature3 />
           <FeatureCard2
             title="$5000"
             des="Money spend for poor patient"
             imageURL="assets/Group.svg"
-            extraClassName="mt-auto"
           />
           <FeatureCard
             title="50+"

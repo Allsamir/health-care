@@ -11,9 +11,9 @@ const FeatureCard2 = ({
 }) => {
   return (
     <div
-      className={`${extraClassName} max-w-[13.5rem] h-[14.875rem] bg-[#FFFFF5] rounded-3xl border border-solid border-[rgba(2, 0, 67, 0.20)] p-5 space-y-2`}
+      className={`${extraClassName} lg:mt-auto lg:max-w-[13.5rem] lg:h-[14.875rem] bg-[#FFFFF5] rounded-3xl border border-solid border-[rgba(2, 0, 67, 0.20)] p-5 space-y-2`}
     >
-      <h2 className="font-semibold text-[2.5rem]">{title}</h2>
+      <h2 className="font-semibold lg:text-[2.5rem] text-2xl">{title}</h2>
       <p className="text-[0.875rem]">{des}</p>
       <div className="flex justify-end mt-1">
         <img src={imageURL} alt="" />
