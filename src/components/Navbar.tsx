@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
               <a href="">Home</a>
             </li>
             <li>
-              <a href="">Services</a>
+              <a href="#service">Services</a>
             </li>
             <li>
               <a href="">Blog</a>
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
             <a href="">Home</a>
           </li>
           <li>
-            <a href="">Services</a>
+            <a href="#service">Services</a>
           </li>
           <li>
             <a href="">Blog</a>

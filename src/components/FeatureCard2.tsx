@@ -15,7 +15,7 @@ const FeatureCard2 = ({
     >
       <h2 className="font-semibold text-[2.5rem]">{title}</h2>
       <p className="text-[0.875rem]">{des}</p>
-      <div className="flex justify-end">
+      <div className="flex justify-end mt-1">
         <img src={imageURL} alt="" />
       </div>
       <p></p>
