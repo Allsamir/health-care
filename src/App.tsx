@@ -1,10 +1,13 @@
 import "./App.css";
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Hello</h1>
+      <div className="container mx-auto px-4">
+        <Navbar />
+        <Banner />
       </div>
     </>
   );
