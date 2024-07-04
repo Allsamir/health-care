@@ -12,15 +12,31 @@ import WeCard from "./components/WeCard";
 function App() {
   return (
     <>
+      <header
+        style={{
+          background: "url(assets/white.svg)",
+        }}
+      >
+        <div className="max-w-[72.5625rem] mx-auto px-4">
+          <Navbar />
+          <Banner />
+        </div>
+      </header>
       <div className="max-w-[72.5625rem] mx-auto px-4">
-        <Navbar />
-        <Banner />
         <Features />
         <AboutUs />
         <Service />
         <Testimonial />
         <Question />
-        <WeCard />
+      </div>
+      <div
+        style={{
+          backgroundImage: "url(assets/white.svg)",
+        }}
+      >
+        <div className="max-w-[72.5625rem] mx-auto px-4">
+          <WeCard />
+        </div>
       </div>
       <Footer />
     </>

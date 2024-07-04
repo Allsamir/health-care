@@ -69,7 +69,7 @@ const Slide = () => {
             className="bg-[#FFFFF5] rounded-2xl lg:max-w-[23.1875rem] w-full p-5 h-64"
             key={i}
           >
-            <h2 className="text-[1.1875rem] leading-[1.78125rem] font-semibold">
+            <h2 className="text-[1.1875rem] leading-[1.78125rem] font-semibold max-w-[18rem]">
               {c.title}
             </h2>
             <p className="leading-[1.125rem] text-[0.75rem] font-normal my-3">
@@ -81,7 +81,7 @@ const Slide = () => {
               </div>
               <div>
                 <h5 className="leading-[1.125rem] text-[0.75rem] font-normal text-[#020043]">
-                  <span className="font-semibold">{c.name}</span> IT
+                  <span className="font-semibold">{c.name} </span>
                   {c.jobTitle}
                 </h5>
                 <div className="flex gap-1">
