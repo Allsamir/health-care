@@ -45,7 +45,7 @@ const sliderContent = [
     title: "Expertise and Compassion Combined",
     description:
       "I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.",
-    image: "assets/Ellipse 10(2).svg",
+    image: "assets/Ellipse 10 (2).svg",
     name: "Sarah D,",
     jobTitle: "IT Professional",
   },
@@ -55,7 +55,7 @@ const Slide = () => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={`auto`}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -66,7 +66,7 @@ const Slide = () => {
       >
         {sliderContent.map((c, i) => (
           <SwiperSlide
-            className="bg-[#FFFFF5] rounded-2xl max-w-[23.1875rem] p-5 h-64"
+            className="bg-[#FFFFF5] rounded-2xl lg:max-w-[23.1875rem] w-full p-5 h-64"
             key={i}
           >
             <h2 className="text-[1.1875rem] leading-[1.78125rem] font-semibold">
