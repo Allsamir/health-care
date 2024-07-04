@@ -8,3 +8,9 @@
     @apply text-[#4D4C7B];
   }
 }
+.swiper-pagination-bullet {
+  background-color: #ffc637 !important;
+}
+.swiper {
+  height: 40vh !important;
+}

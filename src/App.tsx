@@ -3,7 +3,9 @@ import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
+import Question from "./components/Question";
 import Service from "./components/Service";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Features />
         <AboutUs />
         <Service />
+        <Testimonial />
+        <Question />
       </div>
     </>
   );
